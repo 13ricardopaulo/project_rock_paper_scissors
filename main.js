@@ -19,3 +19,11 @@ function getComputerChoice() {
 function getHumanChoice() {
   let humanChoice = prompt("Choose Rock, Paper, or Scissors!");
 }
+
+// Declare humanScore variable in the global scope.
+// Declare computerScore variable in the global scope.
+
+let humanScore = 0;
+let computerScore = 0;
+
+console.log(computerScore);
