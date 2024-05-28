@@ -8,7 +8,7 @@ function getComputerChoice() {
   } else {
     randomNumber = "Scissors";
   }
-  console.log(randomNumber);
+  return randomNumber;
 }
 
 console.log(getComputerChoice());
