@@ -1,17 +1,21 @@
 // Write getComputerChoice function.
-
 // getComputerChoice randomly selects rock, paper, or scissors.
 
 function getComputerChoice() {
-  let randomNumber = Math.floor(Math.random() * 3);
+  let computerChoice = Math.floor(Math.random() * 3);
 
-  if (randomNumber === 0) {
-    randomNumber = "rock";
-  } else if (randomNumber === 1) {
-    randomNumber = "paper";
+  if (computerChoice === 0) {
+    computerChoice = "rock";
+  } else if (computerChoice === 1) {
+    computerChoice = "paper";
   } else {
-    randomNumber = "scissors";
+    computerChoice = "scissors";
   }
 }
 
-console.log(getComputerChoice());
+// Write getHumanChoice function.
+// Ask the user to input Rock, Paper, or Scissors.
+
+function getHumanChoice() {
+  let humanChoice = prompt("Choose Rock, Paper, or Scissors!");
+}

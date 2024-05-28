@@ -1,16 +1,16 @@
 --------ROCK PAPER SCISSORS ALGORITHM--------
 
-// Declare getComputerChoice variable.
+// Write getComputerChoice function.
 
 // getComputerChoice randomly selects rock, paper, or scissors.
 
-// Declare getHumanChoice variable.
+// Write getHumanChoice function.
 
 // Ask the user to input Rock, Paper, or Scissors.
 
-// Declare humanScore variable.
+// Declare humanScore variable in the global scope.
 
-// Declare computerScore variable.
+// Declare computerScore variable in the global scope.
 
 // Initialize Score variables with 0.
 
