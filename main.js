@@ -3,11 +3,11 @@ function getComputerChoice() {
   let randomNumber = Math.floor(Math.random() * 3);
 
   if (randomNumber === 0) {
-    randomNumber = "Rock";
+    randomNumber = "rock";
   } else if (randomNumber === 1) {
-    randomNumber = "Paper";
+    randomNumber = "paper";
   } else {
-    randomNumber = "Scissors";
+    randomNumber = "scissors";
   }
   return randomNumber;
 }
@@ -21,13 +21,19 @@ let humanScore = 0;
 let computerScore = 0;
 
 function playRound(humanChoice, computerChoice) {
-  if (humanChoice === "Rock" && computerChoice === "Scissors") {
+  if (humanChoice.toLowerCase() === "rock" && computerChoice === "scissors") {
     humanScore = ++humanScore;
     console.log("You Win!");
-  } else if (humanChoice === "Paper" && computerChoice === "Rock") {
+  } else if (
+    humanChoice.toLowerCase() === "paper" &&
+    computerChoice === "rock"
+  ) {
     humanScore = ++humanScore;
     console.log("You Win!");
-  } else if (humanChoice === "Scissors" && computerChoice === "Paper") {
+  } else if (
+    humanChoice.toLowerCase() === "scissors" &&
+    computerChoice === "paper"
+  ) {
     humanScore = ++humanScore;
     console.log("You Win!");
   } else {
